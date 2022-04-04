@@ -3,7 +3,7 @@ import { StarIcon } from '@heroicons/react/solid'
 
 const Review = ({ review: { name, img, review, rating } }) => {
     return (
-        <div className='sm:flex  justify-between items-center my-4 border-2 border-teal-400 rounded p-4'>
+        <div className='sm:flex  justify-between items-center mt-4 border-2 border-teal-400 rounded p-4'>
             <div>
                 <img className=' rounded-full' src={img} alt="" />
                 <div>
