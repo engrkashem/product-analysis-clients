@@ -1,6 +1,9 @@
 import React from 'react';
 
 const QnA = () => {
+
+    //Question and Answer
+
     return (
         <div>
             <h1 className='text-6xl text-center text-indigo-900 font-semibold mt-12'>FREQUENTLY ASKED QUESTION</h1>

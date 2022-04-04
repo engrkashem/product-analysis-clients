@@ -3,6 +3,7 @@ import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, 
 
 const MonthVsSell = ({ data }) => {
 
+    //Making line & bar chart
     return (
         <div className=' grid grid-cols-1 md:grid-cols-2 justify-between' >
             <LineChart

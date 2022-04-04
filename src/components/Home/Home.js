@@ -6,11 +6,14 @@ import Review from '../Review/Review';
 
 const Home = () => {
 
+    //Navigation 
     const navigate = useNavigate();
 
+    //Load review data from local db using custom hook
     const [reviews] = useReviews();
+
+    //seperating 3 review out of many
     const halfReviews = reviews.slice(0, 3);
-    console.log(halfReviews)
 
     return (
         <div>

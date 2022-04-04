@@ -5,9 +5,9 @@ import MonthVsSell from '../MonthVsSell/MonthVsSell';
 
 const Analysis = () => {
 
-    //load chart data from local chartDb by custom hook
+    //load chart data from local chartDb using custom hook
     const [data] = useChart();
-    // console.log(data)
+
     return (
         <div>
             <div className='mt-20'>

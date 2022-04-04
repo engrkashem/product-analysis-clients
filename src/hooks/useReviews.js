@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 
 const useReviews = () => {
 
+    //loading data for reviews
+
     const [reviews, setReviews] = useState([]);
 
     useEffect(() => {

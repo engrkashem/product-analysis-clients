@@ -4,7 +4,7 @@ import Review from '../Review/Review';
 
 const Reviews = () => {
 
-    //Loading review data from local db by custom hook
+    //Loading review data from local db using custom hook
     const [reviews] = useReviews();
 
     return (

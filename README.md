@@ -27,4 +27,8 @@ Kyefeatures are-
 
 6) we have created Notfound page if anyone want to route in a non existing page.
 
+7) Two Custom hooks is used to load data from local DB for chart and review.
+
+
+
 

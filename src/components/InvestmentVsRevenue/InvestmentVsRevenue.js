@@ -1,11 +1,14 @@
 import React from 'react';
 import { Bar, BarChart, CartesianGrid, Cell, Legend, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
 
+//making custom Pie Chart 
 const InvestmentVsRevenue = ({ data }) => {
 
+    //custom color for diff sec. of pie chart
     const colors = ['#0088FE', '#0000cd', '#FF8042', '#dc143c', '#9932cc', '#FFBB28'];
 
     const RADIAN = Math.PI / 180;
+
     const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
         const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
         const x = cx + radius * Math.cos(-midAngle * RADIAN);
@@ -18,6 +21,7 @@ const InvestmentVsRevenue = ({ data }) => {
         );
     };
 
+    //making line & pir chart
     return (
         <div className='grid grid-cols-1 md:grid-cols-3 justify-between'>
             <BarChart

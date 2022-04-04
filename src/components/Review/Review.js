@@ -2,6 +2,8 @@ import React from 'react';
 import { StarIcon } from '@heroicons/react/solid'
 
 const Review = ({ review: { name, img, review, rating } }) => {
+
+    // making review card
     return (
         <div className='sm:flex  justify-between items-center mt-4 border-2 border-teal-400 rounded p-4'>
             <div>

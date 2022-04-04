@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 
 const useChart = () => {
 
+    //loading data for chart
+
     const [data, setData] = useState([]);
 
     useEffect(() => {
