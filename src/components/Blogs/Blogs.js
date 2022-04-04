@@ -1,6 +1,6 @@
 import React from 'react';
 
-const QnA = () => {
+const Blogs = () => {
 
     //Question and Answer
 
@@ -37,4 +37,4 @@ const QnA = () => {
     );
 };
 
-export default QnA;
+export default Blogs;

@@ -5,7 +5,7 @@ import Analysis from './components/Analysis/Analysis';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
-import QnA from './components/QnA/QnA';
+import Blogs from './components/Blogs/Blogs';
 import Reviews from './components/Reviews/Reviews';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/reviews' element={<Reviews />} />
         <Route path='/analysis' element={<Analysis />} />
-        <Route path='/ques-and-ans' element={<QnA />} />
+        <Route path='/blogs' element={<Blogs />} />
         <Route path='/about' element={<About />} />
         <Route path='*' element={<NotFound />} />
       </Routes>

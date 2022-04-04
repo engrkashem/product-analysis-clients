@@ -15,7 +15,7 @@ const Header = () => {
                 to={'/analysis'}>ANALYSIS</NavLink>
             <NavLink
                 className={({ isActive }) => (isActive ? ' text-rose-700 font-bold transition ease-in delay-50 border-b-2 px-3 pb-1 border-rose-200' : 'text-indigo-900 font-bold border-b-2 px-4 pb-1 border-teal-700 hover:text-indigo-700  ')}
-                to={'/ques-and-ans'}>FAQ</NavLink>
+                to={'/blogs'}>BLOGS</NavLink>
             <NavLink
                 className={({ isActive }) => (isActive ? ' text-rose-700 font-bold transition ease-in delay-50 border-b-2 px-3 pb-1 border-rose-200' : 'text-indigo-900 font-bold border-b-2 px-4 pb-1 border-teal-700 hover:text-indigo-700  ')}
                 to={'/about'}>ABOUT</NavLink>
