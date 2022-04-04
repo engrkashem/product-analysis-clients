@@ -9,7 +9,7 @@ import Reviews from './components/Reviews/Reviews';
 
 function App() {
   return (
-    <div className=' bg-teal-200 h-[100vh]' >
+    <div className=' bg-teal-200 h-full' >
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />

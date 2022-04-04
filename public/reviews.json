@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Bruce Vasquez",
+        "review": "They're extremely creative and work well at taking your brand and making it look that much better.",
+        "img": "https://randomuser.me/api/portraits/men/52.jpg",
+        "rating": 4.6
+    },
+    {
+        "id": 2,
+        "name": "Stella Barnes",
+        "review": "The team is always well structured, organized, flexible, and able to deliver key milestones in the project plan.",
+        "img": "https://randomuser.me/api/portraits/women/34.jpg",
+        "rating": 4.5
+    },
+    {
+        "id": 3,
+        "name": "Warren Gutierrez",
+        "review": "We are very satisfied with the project so far and believe they have done an outstanding job!",
+        "img": "https://randomuser.me/api/portraits/men/76.jpg",
+        "rating": 4.7
+    },
+    {
+        "id": 4,
+        "name": "Harper Richards",
+        "review": "We're very thankful to have found them and to have established such a great working relationship so quickly.",
+        "img": "https://randomuser.me/api/portraits/women/8.jpg",
+        "rating": 4.8
+    },
+    {
+        "id": 5,
+        "name": "Josephine Boyd",
+        "review": "BIGfish Communications does their homework and they implement very well, as they are very organized.",
+        "img": "https://randomuser.me/api/portraits/women/55.jpg",
+        "rating": 4.7
+    },
+    {
+        "id": 6,
+        "name": "Ana Gutierrez",
+        "review": "I am impressed with quickly they moved and the fact that quality was not compromised.",
+        "img": "https://randomuser.me/api/portraits/women/50.jpg",
+        "rating": 4.9
+    }
+]

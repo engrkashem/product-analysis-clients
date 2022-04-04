@@ -5,7 +5,7 @@ import mainCamera from '../../images/main-camera.png'
 const Home = () => {
     const navigate = useNavigate();
     return (
-        <div className='flex justify-around items-center mt-16'>
+        <div className='flex justify-around items-center mt-16 h-full'>
             <div className='w-1/2'>
                 <h1 className='text-6xl font-semibold text-indigo-900'>ONE SHOT..</h1>
                 <h1 className='text-6xl font-semibold text-indigo-800'>ONE MEMORY !!</h1>
