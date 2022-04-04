@@ -17,7 +17,7 @@ const Home = () => {
 
     return (
         <div>
-            <div className='sm:flex justify-around items-center mt-16 h-full '>
+            <div className='sm:flex justify-around items-center mt-32 sm:mt-12 h-full '>
                 <div className='sm:w-1/2 px-8 '>
                     <h1 className='text-6xl font-semibold text-indigo-900 text-justify'>ONE SHOT..</h1>
                     <h1 className='text-6xl font-semibold text-indigo-800'>ONE MEMORY !!</h1>

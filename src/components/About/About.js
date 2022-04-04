@@ -2,8 +2,8 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='flex flex-col items-center'>
-            <h2 className=' text-6xl font-semibold text-indigo-900  text-center mt-10'>Our Packages</h2>
+        <div className='flex flex-col items-center mt-32  sm:mt-10'>
+            <h2 className=' text-6xl font-semibold text-indigo-900  text-center'>Our Packages</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10'>
                 <div className=' border-2  mx-2 p-5 rounded-lg mb-5 h-[300px]'>
                     <h3 className=' text-indigo-800 font-semibold text-2xl mb-5'>Regular Package</h3>

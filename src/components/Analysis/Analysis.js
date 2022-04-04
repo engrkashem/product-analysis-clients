@@ -10,7 +10,7 @@ const Analysis = () => {
 
     return (
         <div>
-            <div className='mt-20'>
+            <div className='mt-32 sm:mt-16'>
                 <h2 className='text-center my-5 font-bold text-4xl text-indigo-900'>Month Vs Sell</h2>
                 <MonthVsSell
                     key={'1'}

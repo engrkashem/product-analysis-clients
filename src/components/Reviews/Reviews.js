@@ -9,7 +9,7 @@ const Reviews = () => {
 
     return (
         <div >
-            <h2 className=' text-5xl text-center my-6 text-indigo-900'>Clients Appreciations</h2>
+            <h2 className=' text-5xl text-center mb-6 mt-32 sm:mt-5 text-indigo-900'>Clients Appreciations</h2>
             <div className=' p-3'>
                 {
                     reviews.map(review => <Review
